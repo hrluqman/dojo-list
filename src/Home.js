@@ -17,6 +17,7 @@ const Home = () => {
     };
     
     const firstUpdate = useRef(true);
+    
     useEffect(() => {
         console.log(firstUpdate.current);
         if (firstUpdate.current) {
